@@ -7,6 +7,7 @@ Feature: Library app login feature
 
   @librarian
   Scenario: Login as librarian
+    Given user is on the library login page
     When user enters librarian username
     And user enters librarian Password
     Then user should see the dashboard
