@@ -5,9 +5,11 @@ Feature: Library app login feature
   accounts. And dashboard should be displayed.
   Accounts are: librarian, student, admin
 
+  Background: For the scenario in the feature file, user is expected to be on login page
+    Given user is on the library login page
+
   @librarian
   Scenario: Login as librarian
-    Given user is on the library login page
     When user enters librarian username
     And user enters librarian Password
     Then user should see the dashboard
