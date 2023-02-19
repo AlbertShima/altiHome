@@ -11,7 +11,7 @@ public class GoogleStepDefinitions {
     GoogleSearchPage googleSearchPage = new GoogleSearchPage();
 
     @When("user is on Google search page")
-    public void user_is_on_google_search_page() {
+    public void  user_is_on_google_search_page() {
         Driver.getDriver().get("https://www.google.com");
     }
 
@@ -36,4 +36,17 @@ public class GoogleStepDefinitions {
         Assert.assertEquals("This is not the title", expectedTitle, actualTitle);
     }
 
+    @When("user types {string} and clicks enter")
+    public void userTypesAndClicksEnter(String searchKeyWord) {
+        googleSearchPage.searchBox.sendKeys(searchKeyWord + Keys.ENTER);
+    }
+
+    @Then("user sees {string} in the google title")
+    public void userSeesInTheGoogleTitle(String string) {
+        String expectedTitle = string + " - Google Search";
+        String actualTitle = Driver.getDriver().getTitle();
+        //Junit first element should be expected
+        Assert.assertEquals("This is not the title", expectedTitle, actualTitle);
+
+    }
 }
