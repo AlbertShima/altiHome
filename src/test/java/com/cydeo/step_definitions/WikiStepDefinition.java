@@ -1,6 +1,7 @@
 package com.cydeo.step_definitions;
 
 import com.cydeo.pages.WikiSearchPage;
+import com.cydeo.utilities.BrowserUtils;
 import com.cydeo.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -34,4 +35,5 @@ public class WikiStepDefinition {
         Assert.assertTrue(wikiSearchPage.mainHeader.isDisplayed());
         Assert.assertTrue(string.equals(wikiSearchPage.mainHeader.getText()));
     }
+
 }

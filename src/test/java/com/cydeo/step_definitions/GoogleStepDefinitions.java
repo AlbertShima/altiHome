@@ -48,4 +48,9 @@ public class GoogleStepDefinitions {
         //Junit first element should be expected
         Assert.assertEquals("This is not the title", expectedTitle, actualTitle);
     }
+
+    @Then("User should see {string} in the result")
+    public void userShouldSeeInTheResult(String str) {
+        googleSearchPage.capitalCity.getText().contains(str);
+    }
 }

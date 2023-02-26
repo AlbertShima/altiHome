@@ -13,6 +13,9 @@ public class GoogleSearchPage {
      @FindBy(name="q")
      public WebElement searchBox;
 
+     @FindBy(xpath = "//a[@class='FLP8od']")
+    public WebElement capitalCity;
+
 
 
 }
