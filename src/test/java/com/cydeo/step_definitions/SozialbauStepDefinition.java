@@ -18,7 +18,7 @@ public class SozialbauStepDefinition {
 
     @Then("you search for Vienna all the options")
     public void you_search_for_vienna_all_the_options() throws Exception {
-        for (int i = 1; i <= 19; i++) {
+        for (int i = 1; i <= 10; i++) {
             WebElement address = Driver.getDriver().findElement(By.xpath("//*[@id='c115']/div/form/table/tbody/tr[" + i + "]/td[1]/a"));
 
             WebElement numberOfRooms = Driver.getDriver().findElement(By.xpath("//*[@id='c115']/div/form/table/tbody/tr[" + i + "]/td[2]"));
