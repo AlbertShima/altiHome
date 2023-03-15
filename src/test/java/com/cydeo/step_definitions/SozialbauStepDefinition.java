@@ -1,6 +1,5 @@
 package com.cydeo.step_definitions;
 
-import com.cydeo.pages.SozialbauPage;
 import com.cydeo.utilities.BrowserUtils;
 import com.cydeo.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -26,13 +25,11 @@ public class SozialbauStepDefinition {
 
             WebElement price = Driver.getDriver().findElement(By.xpath("//*[@id='c115']/div/form/table/tbody/tr[" + i + "]/td[4]"));
 
-            if (!(address.getText().contains("Wien") && Integer.parseInt(numberOfRooms.getText()) == 3 && (Integer.parseInt(price.getText().substring(2, price.getText().length() - 3).replaceAll("\\.", ""))) < 1000)) {
-               Assert.assertTrue(true);
-                System.out.println("Shikoje i here si mundesi");
+            if ((address.getText().contains("Wien") && Integer.parseInt(numberOfRooms.getText()) == 3 && (Integer.parseInt(price.getText().substring(2, price.getText().length() - 3).replaceAll("\\.", ""))) < 1000)) {
+                Assert.fail("Shikoje i here si mundesi");
                 break;
             } else {
-               Assert.fail();
-                System.out.println("Ska shpi");
+                Assert.assertTrue(true);
             }
         }
     }

@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dfb263a-2779-4c6d-b41c-f1018be17656" name="Changes" comment="Back to day 17">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/SozialbauPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/SozialbauStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/sozialbau.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SampleData.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vytrack.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DropdownsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/GoogleSearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/OrderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/ViewAllOrdersPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/VyTrackDashBoardPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/VyTrackLoginPages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/WebTableLoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/WikiSearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/FailedTestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/DataTable_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/GoogleStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Login_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Order_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WebTable_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WikiStepDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/ExcelRead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/VyTrackLoginDDTTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/WriteExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/Timer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webtableOrder.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" beforeDir="false" />
-    </list>
+    <list default="true" id="6dfb263a-2779-4c6d-b41c-f1018be17656" name="Changes" comment="Back to day 17" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,9 +189,37 @@
       <workItem from="1678788977504" duration="767000" />
       <workItem from="1678791824025" duration="597000" />
       <workItem from="1678794929909" duration="10647000" />
-      <workItem from="1678865449591" duration="1746000" />
+      <workItem from="1678865449591" duration="3052000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Back to day 17">
+      <created>1678870281032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678870281032</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Back to day 17">
+      <created>1678870575635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678870575635</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Back to day 17">
+      <created>1678870593148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678870593148</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Back to day 17">
+      <created>1678870990067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678870990067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
