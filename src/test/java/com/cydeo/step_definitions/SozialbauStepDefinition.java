@@ -27,11 +27,11 @@ public class SozialbauStepDefinition {
             WebElement price = Driver.getDriver().findElement(By.xpath("//*[@id='c115']/div/form/table/tbody/tr[" + i + "]/td[4]"));
 
             if (address.getText().contains("Wien") && Integer.parseInt(numberOfRooms.getText()) == 3 && (Integer.parseInt(price.getText().substring(2, price.getText().length() - 3).replaceAll("\\.", ""))) < 1500) {
-               // Assert.assertTrue(true);
+               Assert.assertTrue(true);
                 System.out.println("Shikoje i here si mundesi");
                 break;
             } else {
-               // Assert.fail();
+               Assert.fail();
                 System.out.println("Ska shpi");
             }
         }
